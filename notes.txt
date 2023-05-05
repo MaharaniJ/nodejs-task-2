@@ -1,0 +1,4 @@
+nodemon not working
+>window powershell>rightclick on the powershell>select run as administrator
+type Get-GetexecutionPolicy -List ,enter
+type Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
