@@ -4,7 +4,7 @@ const mongodb = require('mongodb');
 const mongoClient = mongodb.MongoClient;
 const dotenv = require('dotenv').config();
 const URL = process.env.DB;
-const DB = "hall_booking";
+const DB = "hallbooking";
 
 app.listen(process.env.PORT || 3000)
 
